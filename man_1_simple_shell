@@ -1,0 +1,58 @@
+.\" Manpage for Simple Shell.
+
+.TH hsh  1 "25 August 2021" "1.0" "Simple Shell man page"
+
+.SH NAME
+hsh - Simple Shell
+
+.SH SYNOPSIS
+hsh (does not support options)
+
+.SH DESCRIPTION
+Welcome to the ALX Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within any number of Linux versions.
+
+.SH OVERVIEW
+The Simple Shell project is a major team project conducted by Mohamed Ikebude Michael and Ojini Ifeoma, for the ALX-Software Engineering program.
+
+.SH RETURN VALUE
+The shell returns the error code given by the last completed command followed by either ctrl-d or exit with no status code.
+
+.SH SYNTAX
+user@dexter$ <command> <flags or options> <argument 1> <argument 2> ...
+
+$ <command> | ./hsh
+.SS
+
+.SS
+EXAMPLE 1:
+MANDALORIAN$ /bin/ls
+.SS
+EXAMPLE 2:
+MANDALORIAN$ ls -l
+.SS
+EXAMPLE 3:
+MANDALORIAN$ cat textfile
+.SS
+
+
+.SS
+EXAMPLE 4:
+$ echo "ls -l" | ./shell
+
+.SH BUILTIN COMMANDS
+.SS env
+- list the current environment variable
+
+.SS exit
+- exit from shell
+
+.SH BUGS
+No known bugs at this writing (August 25, 2021).
+Please report any issues to the authors.
+
+.SH AUTHOR
+
+Ezenwobodo Chukwuebuka <princejason109@gmail.com>
+
+.SH SEE ALSO
+sh
